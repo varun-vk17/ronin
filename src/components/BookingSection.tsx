@@ -73,7 +73,7 @@ export const BookingSection = () => {
                             <h4 className="text-2xl font-black font-heading tracking-tight mb-6">What happens next?</h4>
                             <ul className="space-y-6">
                                 {[
-                                    { title: "Audit & Strategy", desc: "We review your live site or new concept." },
+                                    { title: "Strategy Deep Dive", desc: "We analyze your business goals and current gaps." },
                                     { title: "Find Hidden Revenue", desc: "Identify leaks or planning blindspots." },
                                     { title: "10-Day Roadmap", desc: "Walk through the exact build timeline." }
                                 ].map((item, i) => (
