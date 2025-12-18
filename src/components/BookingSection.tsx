@@ -73,9 +73,9 @@ export const BookingSection = () => {
                             <h4 className="text-2xl font-black font-heading tracking-tight mb-6">What happens next?</h4>
                             <ul className="space-y-6">
                                 {[
-                                    { title: "Review your current site", desc: "We look at your live metrics." },
-                                    { title: "Identify leaks", desc: "Find where 80% of users drop off." },
-                                    { title: "10-Day Plan", desc: "Walk through the exact rebuild timeline." }
+                                    { title: "Audit & Strategy", desc: "We review your live site or new concept." },
+                                    { title: "Find Hidden Revenue", desc: "Identify leaks or planning blindspots." },
+                                    { title: "10-Day Roadmap", desc: "Walk through the exact build timeline." }
                                 ].map((item, i) => (
                                     <li key={i} className="flex gap-4">
                                         <div className="mt-1">
