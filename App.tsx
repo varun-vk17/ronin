@@ -34,7 +34,7 @@ export default function App() {
     <HelmetProvider>
       <div className="font-sans text-ronin-black selection:bg-ronin-electric selection:text-white antialiased">
         <Helmet>
-          <title>Ronin Build — Revenue-First Engineering | High-Performance Websites</title>
+          <title>Ronin Build – Revenue-Focused Landing Pages for Startups & SaaS</title>
           <meta name="description" content="Ronin Build creates high-speed, revenue-focused websites for ambitious startups. No fluff. Just engineering that turns visitors into customers." />
           <meta name="keywords" content="ronin build, roninbuild, web development, revenue engineering, conversion optimization, high performance websites, startup websites" />
 

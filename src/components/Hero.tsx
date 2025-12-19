@@ -15,14 +15,14 @@ export const Hero = () => (
 
                 <FadeIn delay={400}>
                     <h1 className="text-5xl md:text-7xl lg:text-[100px] font-extrabold font-heading tracking-tighter mb-10 leading-[1.0] text-ronin-black">
-                        We build websites that <br />
-                        <span className="text-ronin-electric inline-block animate-pulse-slow">generate revenue.</span>
+                        We build <span className="text-ronin-electric">landing pages</span> that <br />
+                        <span className="inline-block animate-pulse-slow">generate revenue.</span>
                     </h1>
                 </FadeIn>
 
                 <FadeIn delay={600}>
                     <p className="text-lg md:text-xl text-ronin-neutral-600 mb-12 max-w-2xl font-sans leading-relaxed font-medium">
-                        Clear, high-performing websites for startups and growing companies. No fluff. No awards. Just a system built to turn your visitors into customers.
+                        High-performance engineering for <strong>Startups & SaaS</strong>. No fluff. Just conversion-focused sites that turn your visitors into customers.
                     </p>
                 </FadeIn>
 
