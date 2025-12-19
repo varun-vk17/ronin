@@ -14,10 +14,7 @@ export const Navbar = () => {
         <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-700 ${scrolled ? 'bg-white/80 backdrop-blur-xl py-4 border-b border-ronin-neutral-100' : 'bg-transparent py-8'}`}>
             <div className="container mx-auto px-8 md:px-14 flex justify-between items-center">
                 <div className="flex items-center gap-2 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-                    <div className="w-9 h-9 bg-ronin-black rounded-lg flex items-center justify-center group-hover:rotate-6 transition-transform duration-500">
-                        <span className="text-white font-black text-xl font-heading">R</span>
-                    </div>
-                    <span className="font-extrabold text-2xl font-heading tracking-tighter uppercase">Ronin</span>
+                    <img src="/Logo.svg" alt="Ronin" className="h-8 md:h-10 w-auto" />
                 </div>
 
                 <div className="flex items-center gap-4">

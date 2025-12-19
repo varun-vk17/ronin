@@ -9,10 +9,7 @@ export const Footer = () => (
                 <div className="max-w-xs">
                     <FadeIn delay={100} direction="none">
                         <div className="flex items-center gap-2 mb-6">
-                            <div className="w-8 h-8 bg-ronin-black rounded flex items-center justify-center">
-                                <span className="text-white font-black text-xl font-heading">R</span>
-                            </div>
-                            <span className="font-extrabold text-2xl font-heading tracking-tighter uppercase">Ronin</span>
+                            <img src="/Logo.svg" alt="Ronin" className="h-10 w-auto" />
                         </div>
                         <p className="text-ronin-neutral-500 leading-relaxed font-sans text-sm font-medium">
                             Revenue-first engineering for ambitious brands. Building high-performance sites that turn visitors into customers.
