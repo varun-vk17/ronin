@@ -9,7 +9,7 @@ export const FAQItem = ({ question, answer }: { question: string, answer: string
                 className="flex justify-between items-center w-full text-left group"
                 onClick={() => setIsOpen(!isOpen)}
             >
-                <h4 className="text-lg md:text-xl font-bold font-heading group-hover:text-ronin-electric transition-colors pr-8 transition-all duration-300">{question}</h4>
+                <h4 className="text-lg md:text-xl font-bold font-heading group-hover:text-transparent group-hover:bg-ronin-gradient group-hover:bg-clip-text transition-colors pr-8 transition-all duration-300">{question}</h4>
                 <div className={`transition-transform duration-500 ease-[cubic-bezier(0.16, 1, 0.3, 1)] ${isOpen ? 'rotate-45' : ''}`}>
                     <Plus size={24} />
                 </div>

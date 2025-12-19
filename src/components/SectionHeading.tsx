@@ -18,7 +18,7 @@ export const SectionHeading = ({
 }) => (
     <div className={`max-w-4xl ${className} ${center ? 'mx-auto text-center' : 'text-left'}`}>
         <FadeIn delay={100}>
-            <span className={`inline-block px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-[0.2em] mb-4 ${light ? 'bg-white/10 text-white' : 'bg-ronin-electric/10 text-ronin-electric'}`}>
+            <span className={`inline-block px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-[0.2em] mb-4 ${light ? 'bg-white/10 text-white' : 'bg-ronin-electric/10 bg-ronin-gradient bg-clip-text text-transparent'}`}>
                 {tag}
             </span>
         </FadeIn>

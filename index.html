@@ -94,6 +94,10 @@
       background-size: 100% 30px;
       background-image: linear-gradient(to bottom, transparent 29px, #e5e5e5 1px);
     }
+
+    .stroke-ronin-gradient {
+      stroke: url(#ronin-gradient-def);
+    }
   </style>
   <script type="importmap">
 {
@@ -110,6 +114,14 @@
 </head>
 
 <body class="antialiased">
+  <svg width="0" height="0" class="absolute pointer-events-none">
+    <defs>
+      <linearGradient id="ronin-gradient-def" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#6840FF" />
+        <stop offset="100%" stop-color="#00a0ff" />
+      </linearGradient>
+    </defs>
+  </svg>
   <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>

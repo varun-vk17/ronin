@@ -24,7 +24,7 @@ export const Footer = () => (
                                 <li>
                                     <button
                                         onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
-                                        className="hover:text-ronin-electric transition-colors text-left"
+                                        className="hover:text-transparent hover:bg-ronin-gradient hover:bg-clip-text transition-all text-left"
                                     >
                                         Book Free Strategy Call
                                     </button>
@@ -41,7 +41,7 @@ export const Footer = () => (
                                         href="https://www.linkedin.com/in/varun-kumaran/"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="flex items-center gap-2 hover:text-ronin-electric transition-colors"
+                                        className="flex items-center gap-2 hover:text-transparent hover:bg-ronin-gradient hover:bg-clip-text transition-colors"
                                     >
                                         <Linkedin size={16} />
                                         <span>LinkedIn</span>

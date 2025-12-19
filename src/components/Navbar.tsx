@@ -18,7 +18,7 @@ export const Navbar = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <Button variant="primary" className="h-11 py-0 px-6 text-xs bg-ronin-electric border-none" onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}>
+                    <Button variant="primary" className="h-11 py-0 px-6 text-xs border-none" onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}>
                         Book Free Strategy Call
                     </Button>
                 </div>
