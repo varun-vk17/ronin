@@ -17,7 +17,7 @@ export const WhyDifferent = () => (
                     <div className="space-y-8">
                         <FadeIn delay={400}>
                             <p className="text-lg text-ronin-neutral-600 font-medium leading-relaxed max-w-xl">
-                                We focus on **proven SaaS conversion patterns**. If your pricing page confuses users or your load time is slow, you are losing MRR every hour. We don't care about awards. We care about growth.
+                                We focus on observable patterns. If your site is slow or the message is vague, you are losing sales every hour. We don't care about awards. We care about how your customers think and act.
                             </p>
                         </FadeIn>
                         <FadeIn delay={500} direction="left">
@@ -53,5 +53,5 @@ export const WhyDifferent = () => (
                 </div>
             </div>
         </div>
-    </section >
+    </section>
 );
