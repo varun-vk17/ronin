@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck } from 'lucide-react';
+import { ShieldCheck, Linkedin } from 'lucide-react';
 import { FadeIn } from './FadeIn';
 
 export const Footer = () => (
@@ -17,22 +17,39 @@ export const Footer = () => (
                     </FadeIn>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-12">
-                    {[
-                        { title: "SOLUTIONS", links: ["Book Free Strategy Call", "Startup Launch", "Growth Scaling"] },
-                        { title: "RESOURCES", links: ["Methodology", "Terms"] },
-                        { title: "CONNECT", links: ["LinkedIn", "Twitter / X"] }
-                    ].map((col, i) => (
-                        <div key={i}>
-                            <FadeIn delay={200 + i * 100} direction="none">
-                                <h4 className="font-bold font-heading text-[10px] uppercase tracking-widest text-ronin-neutral-400 mb-6">{col.title}</h4>
-                                <ul className="space-y-4 font-sans font-semibold text-sm">
-                                    {col.links.map(link => (
-                                        <li key={link}><a href="#" className="hover:text-ronin-electric transition-colors">{link}</a></li>
-                                    ))}
-                                </ul>
-                            </FadeIn>
-                        </div>
-                    ))}
+                    <div>
+                        <FadeIn delay={200} direction="none">
+                            <h4 className="font-bold font-heading text-[10px] uppercase tracking-widest text-ronin-neutral-400 mb-6">SOLUTIONS</h4>
+                            <ul className="space-y-4 font-sans font-semibold text-sm">
+                                <li>
+                                    <button
+                                        onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+                                        className="hover:text-ronin-electric transition-colors text-left"
+                                    >
+                                        Book Free Strategy Call
+                                    </button>
+                                </li>
+                            </ul>
+                        </FadeIn>
+                    </div>
+                    <div>
+                        <FadeIn delay={300} direction="none">
+                            <h4 className="font-bold font-heading text-[10px] uppercase tracking-widest text-ronin-neutral-400 mb-6">CONNECT</h4>
+                            <ul className="space-y-4 font-sans font-semibold text-sm">
+                                <li>
+                                    <a
+                                        href="https://www.linkedin.com/in/varun-kumaran/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center gap-2 hover:text-ronin-electric transition-colors"
+                                    >
+                                        <Linkedin size={16} />
+                                        <span>LinkedIn</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </FadeIn>
+                    </div>
                 </div>
             </div>
             <FadeIn delay={600} direction="none" className="pt-10 border-t border-ronin-neutral-100 flex flex-col md:flex-row justify-between items-center gap-6">
