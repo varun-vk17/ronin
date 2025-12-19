@@ -1,87 +1,96 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ronin — Revenue-First Engineering</title>
-    <link rel="icon" type="image/svg+xml" href="/Logo.svg" />
-    <meta name="description" content="We build high-speed, revenue-focused websites for ambitious startups. No fluff. Just engineering that turns visitors into customers." />
-    <meta name="keywords" content="web development, revenue engineering, conversion optimization, high performance websites, startup websites" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Poppins', 'sans-serif'],
-              heading: ['Plus Jakarta Sans', 'sans-serif'],
-              handwriting: ['Caveat', 'cursive'],
-            },
-            colors: {
-              ronin: {
-                black: '#0a0a0a',
-                white: '#f9f9f9',
-                electric: '#6840FF',
-                neutral: {
-                  50: '#fafafa',
-                  100: '#f5f5f5',
-                  200: '#e5e5e5',
-                  300: '#d4d4d4',
-                  600: '#525252',
-                  800: '#262626',
-                  900: '#171717'
-                }
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ronin Build — Revenue-First Engineering</title>
+  <link rel="icon" type="image/svg+xml" href="/Logo.svg" />
+  <meta name="description"
+    content="Ronin Build creates high-speed, revenue-focused websites for ambitious startups. No fluff. Just engineering that turns visitors into customers." />
+  <meta name="keywords"
+    content="ronin build, roninbuild, web development, revenue engineering, conversion optimization, high performance websites, startup websites" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&family=Caveat:wght@400;700&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+            heading: ['Plus Jakarta Sans', 'sans-serif'],
+            handwriting: ['Caveat', 'cursive'],
+          },
+          colors: {
+            ronin: {
+              black: '#0a0a0a',
+              white: '#f9f9f9',
+              electric: '#6840FF',
+              neutral: {
+                50: '#fafafa',
+                100: '#f5f5f5',
+                200: '#e5e5e5',
+                300: '#d4d4d4',
+                600: '#525252',
+                800: '#262626',
+                900: '#171717'
               }
+            }
+          },
+          animation: {
+            'marquee': 'marquee 30s linear infinite',
+            'marquee-slow': 'marquee 60s linear infinite',
+            'float': 'float 6s ease-in-out infinite',
+          },
+          keyframes: {
+            marquee: {
+              '0%': { transform: 'translateX(0%)' },
+              '100%': { transform: 'translateX(-50%)' },
             },
-            animation: {
-              'marquee': 'marquee 30s linear infinite',
-              'marquee-slow': 'marquee 60s linear infinite',
-              'float': 'float 6s ease-in-out infinite',
-            },
-            keyframes: {
-              marquee: {
-                '0%': { transform: 'translateX(0%)' },
-                '100%': { transform: 'translateX(-50%)' },
-              },
-              float: {
-                '0%, 100%': { transform: 'translateY(0)' },
-                '50%': { transform: 'translateY(-20px)' },
-              }
+            float: {
+              '0%, 100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-20px)' },
             }
           }
         }
       }
-    </script>
-    <style>
-      body {
-        background-color: #f9f9f9;
-        color: #0a0a0a;
-        overflow-x: hidden;
-      }
-      .custom-scrollbar::-webkit-scrollbar {
-        width: 4px;
-      }
-      .custom-scrollbar::-webkit-scrollbar-track {
-        background: #0a0a0a;
-      }
-      .custom-scrollbar::-webkit-scrollbar-thumb {
-        background: #6840FF;
-      }
-      .grid-pattern {
-        background-size: 40px 40px;
-        background-image: 
-          linear-gradient(to right, #f0f0f0 1px, transparent 1px),
-          linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
-      }
-      .notebook-lines {
-        background-size: 100% 30px;
-        background-image: linear-gradient(to bottom, transparent 29px, #e5e5e5 1px);
-      }
-    </style>
+    }
+  </script>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      color: #0a0a0a;
+      overflow-x: hidden;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #0a0a0a;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #6840FF;
+    }
+
+    .grid-pattern {
+      background-size: 40px 40px;
+      background-image:
+        linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+        linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+    }
+
+    .notebook-lines {
+      background-size: 100% 30px;
+      background-image: linear-gradient(to bottom, transparent 29px, #e5e5e5 1px);
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -93,10 +102,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="antialiased">
-    <div id="root"></div>
+
+<body class="antialiased">
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>

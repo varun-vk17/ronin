@@ -34,9 +34,9 @@ export default function App() {
     <HelmetProvider>
       <div className="font-sans text-ronin-black selection:bg-ronin-electric selection:text-white antialiased">
         <Helmet>
-          <title>Ronin — Revenue-First Engineering | High-Performance Websites</title>
-          <meta name="description" content="We build high-speed, revenue-focused websites for ambitious startups. No fluff. Just engineering that turns visitors into customers." />
-          <meta name="keywords" content="web development, revenue engineering, conversion optimization, high performance websites, startup websites" />
+          <title>Ronin Build — Revenue-First Engineering | High-Performance Websites</title>
+          <meta name="description" content="Ronin Build creates high-speed, revenue-focused websites for ambitious startups. No fluff. Just engineering that turns visitors into customers." />
+          <meta name="keywords" content="ronin build, roninbuild, web development, revenue engineering, conversion optimization, high performance websites, startup websites" />
 
           {/* Open Graph / Facebook */}
           <meta property="og:type" content="website" />
