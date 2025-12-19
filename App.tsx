@@ -1,4 +1,5 @@
 import React, { Suspense } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
 import { Navbar } from './src/components/Navbar';
 import { Hero } from './src/components/Hero';
@@ -32,6 +33,7 @@ export default function App() {
 
   return (
     <HelmetProvider>
+      <Analytics />
       <div className="font-sans text-ronin-black selection:bg-ronin-electric selection:text-white antialiased">
         <Helmet>
           <title>Ronin Build — Revenue-First Engineering | High-Performance Websites</title>
