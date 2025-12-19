@@ -24,7 +24,7 @@ export const ExpectedResults = () => (
                 ].map((res, i) => (
                     <FadeIn key={i} delay={100 + i * 100} direction="up">
                         <div className="flex items-center gap-6 p-8 bg-ronin-neutral-50 rounded-[28px] border border-ronin-neutral-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-700 ease-[cubic-bezier(0.16, 1, 0.3, 1)] group cursor-default">
-                            <div className="shrink-0 p-3 bg-white rounded-xl shadow-sm group-hover:scale-110 group-hover:shadow-md transition-all duration-500 [&>svg]:stroke-ronin-gradient">{res.icon}</div>
+                            <div className="text-ronin-electric shrink-0 p-3 bg-white rounded-xl shadow-sm group-hover:scale-110 group-hover:shadow-md transition-all duration-500">{res.icon}</div>
                             <span className="font-bold font-heading text-ronin-black text-lg leading-snug">{res.text}</span>
                         </div>
                     </FadeIn>

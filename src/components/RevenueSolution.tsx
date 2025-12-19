@@ -17,25 +17,25 @@ export const RevenueSolution = () => (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {[
                     {
-                        icon: <Search className="stroke-ronin-gradient" size={32} />,
+                        icon: <Search className="text-ronin-electric" size={32} />,
                         days: "Day 1-2",
                         title: "Book Free Strategy Call",
                         desc: "We analyze your offer and competitors to find exactly where you are losing customers."
                     },
                     {
-                        icon: <Layers className="stroke-ronin-gradient" size={32} />,
+                        icon: <Layers className="text-ronin-electric" size={32} />,
                         days: "Day 3-5",
                         title: "Clarity Mapping",
                         desc: "We design a path that guides users to a decision. Every step is intentional and zero-friction."
                     },
                     {
-                        icon: <Cpu className="stroke-ronin-gradient" size={32} />,
+                        icon: <Cpu className="text-ronin-electric" size={32} />,
                         days: "Day 6-8",
                         title: "High-Speed Build",
                         desc: "We build your site for extreme speed and mobile reliability. No slow plugins or heavy code."
                     },
                     {
-                        icon: <Activity className="stroke-ronin-gradient" size={32} />,
+                        icon: <Activity className="text-ronin-electric" size={32} />,
                         days: "Day 9-10",
                         title: "Launch & Track",
                         desc: "Full tracking setup. We verify that your site is capturing every possible lead and sale."
@@ -47,9 +47,9 @@ export const RevenueSolution = () => (
                                 <div className="p-3 bg-ronin-electric/10 rounded-xl group-hover:bg-ronin-electric/20 group-hover:scale-110 transition-all duration-500">
                                     {item.icon}
                                 </div>
-                                <span className="text-transparent bg-ronin-gradient bg-clip-text font-black text-[10px] uppercase tracking-widest">{item.days}</span>
+                                <span className="text-ronin-electric font-black text-[10px] uppercase tracking-widest">{item.days}</span>
                             </div>
-                            <h4 className="text-xl font-bold font-heading mb-3 tracking-tight group-hover:text-transparent group-hover:bg-ronin-gradient group-hover:bg-clip-text transition-colors">{item.title}</h4>
+                            <h4 className="text-xl font-bold font-heading mb-3 tracking-tight group-hover:text-ronin-electric transition-colors">{item.title}</h4>
                             <p className="text-ronin-neutral-400 font-sans text-base leading-relaxed">{item.desc}</p>
                         </div>
                     </FadeIn>

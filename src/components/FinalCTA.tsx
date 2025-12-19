@@ -4,7 +4,7 @@ import { FadeIn } from './FadeIn';
 import { Button } from './Button';
 
 export const FinalCTA = () => (
-    <section className="py-32 bg-ronin-gradient text-white text-center overflow-hidden relative">
+    <section className="py-32 bg-ronin-electric text-white text-center overflow-hidden relative">
         <div className="container mx-auto px-8 md:px-14 relative z-10">
             <FadeIn delay={200}>
                 <h2 className="text-5xl md:text-7xl font-extrabold font-heading mb-8 tracking-tighter leading-tight">

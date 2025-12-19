@@ -8,15 +8,15 @@ export const Hero = () => (
         <div className="container mx-auto px-8 md:px-14 relative z-10">
             <div className="max-w-[1300px]">
                 <FadeIn delay={200} direction="down">
-                    <span className="inline-block px-4 py-1.5 rounded-full bg-ronin-electric/10 bg-ronin-gradient bg-clip-text text-transparent font-bold text-[10px] uppercase tracking-[0.2em] mb-8 font-heading">
+                    <span className="inline-block px-4 py-1.5 rounded-full bg-ronin-electric/10 text-ronin-electric font-bold text-[10px] uppercase tracking-[0.2em] mb-8 font-heading">
                         Revenue-Focused Website Engineering
                     </span>
                 </FadeIn>
 
                 <FadeIn delay={400}>
-                    <h1 className="text-5xl md:text-7xl lg:text-[100px] font-extrabold font-heading tracking-tighter mb-10 leading-[1.15] text-ronin-black pb-4">
+                    <h1 className="text-5xl md:text-7xl lg:text-[100px] font-extrabold font-heading tracking-tighter mb-10 leading-[1.0] text-ronin-black">
                         We build websites that <br />
-                        <span className="bg-ronin-gradient bg-clip-text text-transparent inline-block animate-pulse-slow">generate revenue.</span>
+                        <span className="text-ronin-electric inline-block animate-pulse-slow">generate revenue.</span>
                     </h1>
                 </FadeIn>
 

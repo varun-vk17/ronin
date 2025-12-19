@@ -79,8 +79,8 @@ export const BookingSection = () => {
                                 ].map((item, i) => (
                                     <li key={i} className="flex gap-4">
                                         <div className="mt-1">
-                                            <div className="w-6 h-6 rounded-full bg-ronin-electric/10 flex items-center justify-center">
-                                                <CheckCircle2 size={14} className="stroke-ronin-gradient" />
+                                            <div className="w-6 h-6 rounded-full bg-ronin-electric/10 flex items-center justify-center text-ronin-electric">
+                                                <CheckCircle2 size={14} />
                                             </div>
                                         </div>
                                         <div>
@@ -133,7 +133,7 @@ export const BookingSection = () => {
                                                     <button
                                                         key={day}
                                                         onClick={() => setSelectedDate(day)}
-                                                        className={`aspect-square rounded-xl text-sm font-bold transition-all ${isSelected ? 'bg-ronin-gradient text-white shadow-lg scale-110' : 'hover:bg-ronin-neutral-100'}`}
+                                                        className={`aspect-square rounded-xl text-sm font-bold transition-all ${isSelected ? 'bg-ronin-electric text-white shadow-lg scale-110' : 'hover:bg-ronin-neutral-100'}`}
                                                     >
                                                         {day}
                                                     </button>
@@ -150,7 +150,7 @@ export const BookingSection = () => {
                                                 <button
                                                     key={time}
                                                     onClick={() => setSelectedTime(time)}
-                                                    className={`w-full py-3 px-4 rounded-lg text-xs font-bold border transition-all ${selectedTime === time ? 'border-ronin-electric bg-ronin-electric/5 text-transparent bg-ronin-gradient bg-clip-text' : 'border-ronin-neutral-200 hover:border-ronin-neutral-300'}`}
+                                                    className={`w-full py-3 px-4 rounded-lg text-xs font-bold border transition-all ${selectedTime === time ? 'border-ronin-electric bg-ronin-electric/5 text-ronin-electric' : 'border-ronin-neutral-200 hover:border-ronin-neutral-300'}`}
                                                 >
                                                     {time}
                                                 </button>

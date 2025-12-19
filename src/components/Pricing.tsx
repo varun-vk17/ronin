@@ -26,7 +26,7 @@ export const Pricing = () => (
                         btnText: "Book Free Strategy Call"
                     },
                     {
-                        icon: <Zap className="stroke-ronin-gradient" />,
+                        icon: <Zap className="text-ronin-electric" />,
                         name: "REVENUE ENGINE",
                         price: "$800",
                         bestFor: "Scaling existing sales and leads",
@@ -57,7 +57,7 @@ export const Pricing = () => (
                             <ul className="space-y-4 mb-12 flex-grow">
                                 {plan.features.map((f, j) => (
                                     <li key={j} className="flex items-center gap-3 text-sm font-medium">
-                                        <Check size={16} className="stroke-ronin-gradient" /> {f}
+                                        <Check size={16} className="text-ronin-electric" /> {f}
                                     </li>
                                 ))}
                             </ul>

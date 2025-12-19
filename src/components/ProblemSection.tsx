@@ -12,7 +12,7 @@ export const ProblemSection = () => (
                             Most websites are built to impress — not to sell.
                         </h2>
                         <div className="relative inline-block">
-                            <span className="text-3xl md:text-5xl font-bold font-heading tracking-tight text-transparent bg-ronin-gradient bg-clip-text italic">
+                            <span className="text-3xl md:text-5xl font-bold font-heading tracking-tight text-ronin-electric italic">
                                 They look polished, but leave users unsure what to do next.
                             </span>
                             <div className="absolute -right-8 -top-4 bg-red-50 p-2 rounded-full shadow-sm animate-float">
