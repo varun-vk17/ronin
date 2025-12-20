@@ -28,7 +28,7 @@ export const Hero = () => (
 
                 <FadeIn delay={800} direction="up" className="flex flex-col sm:flex-row items-center gap-6">
                     <div className="relative">
-                        <Button variant="primary" className="w-full sm:w-auto px-10 py-5 text-lg bg-ronin-electric border-none" onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}>
+                        <Button variant="premium" className="w-full sm:w-auto px-10 py-5 text-lg border-none" onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}>
                             Book Free Strategy Call <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                         </Button>
                         <div className="hidden md:block absolute -top-12 -right-4 translate-x-3/4 rotate-6">
