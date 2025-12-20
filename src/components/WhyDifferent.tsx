@@ -40,7 +40,7 @@ export const WhyDifferent = () => (
                             </div>
                             <p className="text-3xl font-extrabold font-heading leading-tight mb-8">
                                 Reduce friction. <br />
-                                <span className="text-ronin-electric text-4xl">Increase trust.</span>
+                                <span className="bg-gradient-to-br from-[#6B5FFF] to-[#1D2CF3] bg-clip-text text-transparent text-4xl">Increase trust.</span>
                             </p>
                             <p className="text-lg text-ronin-neutral-400 font-sans mb-8 leading-relaxed">
                                 We build for clarity and speed. Your customers should never have to guess what to do next.

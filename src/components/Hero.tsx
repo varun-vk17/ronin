@@ -16,7 +16,7 @@ export const Hero = () => (
                 <FadeIn delay={400}>
                     <h1 className="text-5xl md:text-7xl lg:text-[100px] font-extrabold font-heading tracking-tighter mb-10 leading-[1.0] text-ronin-black">
                         We build websites that <br />
-                        <span className="text-ronin-electric inline-block animate-pulse-slow">generate revenue.</span>
+                        <span className="bg-gradient-to-br from-[#6B5FFF] to-[#1D2CF3] bg-clip-text text-transparent inline-block animate-pulse-slow">generate revenue.</span>
                     </h1>
                 </FadeIn>
 
