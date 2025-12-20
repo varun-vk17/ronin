@@ -3,6 +3,7 @@ import { Rocket, Zap, Trophy, Check, ShieldCheck } from 'lucide-react';
 import { FadeIn } from './FadeIn';
 import { SectionHeading } from './SectionHeading';
 import { Button } from './Button';
+import { PremiumIcon } from './PremiumIcon';
 
 export const Pricing = () => (
     <section id="steps" className="py-32 bg-ronin-black text-white relative overflow-hidden">
@@ -47,7 +48,9 @@ export const Pricing = () => (
                         <div className={`relative p-10 rounded-[40px] border transition-all duration-700 ease-[cubic-bezier(0.16, 1, 0.3, 1)] flex flex-col hover:shadow-3xl ${plan.featured ? 'bg-ronin-neutral-900 border-ronin-electric scale-105 shadow-2xl hover:-translate-y-2' : 'bg-transparent border-ronin-neutral-800 hover:-translate-y-1'}`}>
                             {plan.featured && <span className="absolute -top-4 left-1/2 -translate-x-1/2 bg-ronin-electric px-4 py-1 rounded-full text-[10px] font-black tracking-widest uppercase">1 SLOT LEFT THIS MONTH</span>}
                             <div className="mb-8 flex items-center justify-between">
-                                <div className="p-3 bg-white/5 rounded-xl group-hover:scale-110 transition-transform">{plan.icon}</div>
+                                <PremiumIcon size="small" className="group-hover:scale-110 group-hover:shadow-[0_0_30px_rgba(107,95,255,0.4)]">
+                                    {plan.icon}
+                                </PremiumIcon>
                                 <span className="text-[10px] font-black tracking-widest uppercase opacity-60">{plan.name}</span>
                             </div>
                             <div className="mb-6">

@@ -3,10 +3,14 @@ import { FadeIn } from './FadeIn';
 import { FAQItem } from './FAQItem';
 
 export const FAQ = () => (
-    <section className="py-40 bg-white border-t border-ronin-neutral-100">
-        <div className="container mx-auto px-8 md:px-14 max-w-3xl">
+    <section className="py-40 bg-ronin-black relative overflow-hidden">
+        {/* Background Gradients for Glass Effect */}
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-ronin-electric/20 rounded-full blur-[128px] pointer-events-none" />
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-[128px] pointer-events-none" />
+
+        <div className="container mx-auto px-8 md:px-14 max-w-3xl relative z-10">
             <FadeIn delay={100}>
-                <h2 className="text-3xl md:text-4xl font-extrabold font-heading text-center mb-16 tracking-tight">Strategic Questions</h2>
+                <h2 className="text-3xl md:text-4xl font-extrabold font-heading text-center mb-16 tracking-tight text-white">Strategic Questions</h2>
             </FadeIn>
             <div className="space-y-2">
                 {[
