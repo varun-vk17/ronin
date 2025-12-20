@@ -1,6 +1,7 @@
 import React from 'react';
 import { Search, Layers, Cpu, Activity } from 'lucide-react';
 import { FadeIn } from './FadeIn';
+import { PremiumIcon } from './PremiumIcon';
 import { SectionHeading } from './SectionHeading';
 
 export const RevenueSolution = () => (
@@ -44,9 +45,9 @@ export const RevenueSolution = () => (
                     <FadeIn key={i} delay={200 + i * 150} direction="up">
                         <div className="p-10 rounded-[32px] bg-ronin-neutral-900 border border-ronin-neutral-800 hover:border-ronin-electric hover:shadow-2xl hover:shadow-ronin-electric/10 transition-all duration-700 group flex flex-col min-h-[320px] hover:-translate-y-2">
                             <div className="mb-8 flex justify-between items-center">
-                                <div className="p-3 bg-ronin-electric/10 rounded-xl group-hover:bg-ronin-electric/20 group-hover:scale-110 transition-all duration-500">
+                                <PremiumIcon size="standard" className="group-hover:scale-110 group-hover:shadow-[#6B5FFF]/60">
                                     {item.icon}
-                                </div>
+                                </PremiumIcon>
                                 <span className="text-ronin-electric font-black text-[10px] uppercase tracking-widest">{item.days}</span>
                             </div>
                             <h4 className="text-xl font-bold font-heading mb-3 tracking-tight group-hover:text-ronin-electric transition-colors">{item.title}</h4>

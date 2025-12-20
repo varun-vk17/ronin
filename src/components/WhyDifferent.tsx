@@ -1,6 +1,7 @@
 import React from 'react';
 import { Target, BarChart4 } from 'lucide-react';
 import { FadeIn } from './FadeIn';
+import { PremiumIcon } from './PremiumIcon';
 import { SectionHeading } from './SectionHeading';
 
 export const WhyDifferent = () => (
@@ -32,9 +33,9 @@ export const WhyDifferent = () => (
                         <div className="absolute -inset-6 bg-ronin-electric/10 rounded-[48px] blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                         <div className="relative bg-ronin-black p-12 rounded-[40px] text-white shadow-3xl hover:-translate-y-2 transition-transform duration-700 ease-[cubic-bezier(0.16, 1, 0.3, 1)]">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="w-12 h-12 bg-ronin-electric rounded-xl flex items-center justify-center group-hover:rotate-12 transition-transform duration-500">
+                                <PremiumIcon size="small" className="group-hover:rotate-12">
                                     <Target size={28} />
-                                </div>
+                                </PremiumIcon>
                                 <span className="font-bold tracking-widest text-xs uppercase">Our Core Focus</span>
                             </div>
                             <p className="text-3xl font-extrabold font-heading leading-tight mb-8">
